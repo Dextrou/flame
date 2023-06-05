@@ -55,8 +55,8 @@ const Flame=()=>{
     return (
    <div className="flame">
     <div className="input">
-    <input type="text" onChange={(e)=>setFirstName(e.target.value)} value={firstname} className="firstname"/>
-      <input type="text" onChange={(e)=>setLastName(e.target.value)} value={lastname} className="lastname"/>
+    <input type="text" onChange={(e)=>setFirstName(e.target.value)} value={firstname} className="firstname" placeholder="Enter First Name"/>
+      <input type="text" onChange={(e)=>setLastName(e.target.value)} value={lastname} className="lastname" placeholder="Enter Second Name"/>
     </div>
       <div className="button">
       <button type="submit" onClick={flamer} className="submit">Calculate relationship Future</button>
